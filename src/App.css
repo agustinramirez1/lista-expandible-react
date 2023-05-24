@@ -1,0 +1,12 @@
+#root {
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.card {
+  width: 18rem;
+}
+
+.small {
+  font-size: 13px;
+}
