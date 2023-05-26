@@ -5,7 +5,7 @@ import CardBody from './CardBody'
 const Card = () => {
     return (
         <>
-            <div className='container mt-5'>
+            <div className='container p-5'>
                 <div className="card mx-auto shadow">
                     <Imagen />
                     <CardBody />

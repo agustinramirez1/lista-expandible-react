@@ -1,12 +1,9 @@
 import React, { useState } from 'react'
 import Body from './Body'
 
-//Item viene del padre que en este caso es List
-
 const Item = ({ index, item, indexActivo, setIndexActivo, activarAccordion}) => {
-    const { title, body } = item  //Se descompone List por sus items que se trajo del mismo
+    const { title, body } = item
 
-    // console.log(title)
 
     const active = (index == indexActivo) ? true : false
     const show = (active == true) ? 'show' : ''
